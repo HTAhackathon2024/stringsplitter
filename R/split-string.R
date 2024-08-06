@@ -10,5 +10,5 @@
 #' splitstring("alfa,bravo,charlie")
 #' splitstring("alfa,bravo charlie", sep = " ")
 splitstring <- function(x, sep = ",") {
-    strsplit(x, split = sep)[[1]]
+  strsplit(x, split = sep)[[1]]
 }
