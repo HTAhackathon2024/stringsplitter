@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# stringsplitter
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `{stringsplitter}` is to make splitting strings great again.
+
+This package was created as a demo for the [HTA hackathon 2024](https://https://n8thangreen.github.io/htahack2024/).
+
+## Installation
+
+You can install the development version of `{stringsplitter}` from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("HTAhackathon2024/stringsplitter")
+```
+
+## Example
+
+You can use `{stringsplitter}` to split strings like this:
+
+```{r example}
+library(stringsplitter)
+splitstring("alfa,bravo,charlie", sep = ",")
+```
