@@ -1,10 +1,11 @@
 Package: stringsplitter
-Title: What the Package Does (One Line, Title Case)
+Title: Make Splitting Strings Great Again
 Version: 0.0.1
 Authors@R: 
     person("Milan", "Malfait", , "milan.malfait94@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9144-3701"))
-Description: What the package does (one paragraph).
+Description: Provides convenience functions to split strings in a more user-friendly way. This was
+  created as part of the HTA Hackathon 2024 at Queen's University Belfast on 5th and 6th of August.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
